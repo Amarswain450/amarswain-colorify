@@ -1,0 +1,29 @@
+{
+  "name": "amarswain-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amarswain450/amarswain-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Amar Kumar Swain <amarswain450@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amarswain450/amarswain-colorify/issues"
+  },
+  "homepage": "https://github.com/Amarswain450/amarswain-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": ["lib/**/*"]
+}
